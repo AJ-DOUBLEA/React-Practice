@@ -35,18 +35,24 @@ h1{
 
 
 button {
-    padding: 10px 20px;
+    padding: 20px 60px;
     background-color: #4CAF50;
     color: white;
     border: none;
-    border-radius: 4px;
+    border-radius: 10px;
     cursor: pointer;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    font-size: 30px;
+    
 }
 
 button:hover {
     background-color: darkgreen;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+button:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
 }
 
 p{
@@ -54,7 +60,29 @@ p{
 }
 .input{
     padding: 10px;
+    padding-left: 15px;
     border: 2px solid #ccc;
     border-radius: 4px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.switchButton{
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    font-size: 20px;
+}
+
+.switchButton:hover {
+    background-color: #005f73;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.switchButton:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
 }
